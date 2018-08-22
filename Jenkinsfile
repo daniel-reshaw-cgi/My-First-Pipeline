@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo "building"
                 bat "mvn --version"
+                bat 'set'
             }
         }
     }
