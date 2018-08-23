@@ -7,6 +7,7 @@ pipeline {
                 bat "mvn --version"
                 bat 'set'
             }
+        }
         stage('Test') {
             steps {
                 sh 'echo "Fail!"; exit 1'
